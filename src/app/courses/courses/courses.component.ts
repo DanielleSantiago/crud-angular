@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Course } from '../model/course';
 
 @Component({
@@ -22,6 +23,7 @@ export class CoursesComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    //Todo
   }
 
 }
