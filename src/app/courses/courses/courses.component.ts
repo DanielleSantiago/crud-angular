@@ -35,7 +35,7 @@ export class CoursesComponent implements OnInit {
 
   onError(errorMsg: string) {
     this.dialog.open(ErrorDialogComponent, {
-      data: errorMsg 
+      data: errorMsg
     });
   }
 
